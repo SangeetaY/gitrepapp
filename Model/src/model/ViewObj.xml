@@ -9,12 +9,10 @@
   BindingStyle="OracleName"
   CustomQuery="true"
   ComponentClass="model.ViewObjImpl"
-  PageIterMode="Full"
-  RowClass="model.ViewObjRowImpl">
+  PageIterMode="Full">
   <DesignTime>
     <Attr Name="_codeGenFlag2" Value="Coll"/>
     <Attr Name="_isExpertMode" Value="true"/>
-    <Attr Name="_isCodegen" Value="true"/>
   </DesignTime>
   <SQLQuery><![CDATA[select name from studies]]></SQLQuery>
   <ViewAttribute
